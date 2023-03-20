@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.textbox:first-child {
+
+    width: 700px;
+    height: auto;
+
+    /* important code */
+    background-image: linear-gradient(142deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+    /* Sets if background extends under border-box, 
+    padding box, and content area */
+    background-clip: text;
+    /* Chrome */
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+.textbox:last-child {
+    width: 700px;
+    height: auto;
+
+    /* important code */
+    background-image: url(https://picsum.photos/200/300);
+    /* Sets if background extends under border-box, 
+    padding box, and content area */
+    background-clip: text;
+    /* Chrome */
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
